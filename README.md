@@ -23,8 +23,12 @@ Landing page and documentation for MindContext - The thinking layer for AI-assis
 
 ## Deploy to GitHub Pages
 
-This site is automatically deployed to GitHub Pages when you push to the `main` branch.
+To enable GitHub Pages deployment:
+
+1. Go to [Repository Settings → Pages](https://github.com/byteforgeca/mindcontext-doc/settings/pages)
+2. Set **Source** to: **GitHub Actions**
+3. Push to `main` branch to trigger deployment
+
+Once configured, the site will be live at: https://byteforgeca.github.io/mindcontext-doc/
 
 The workflow is configured in [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
-
-Live site: https://byteforgeca.github.io/mindcontext-doc/
